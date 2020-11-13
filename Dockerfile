@@ -20,3 +20,5 @@ ENV PATH=$PATH:"/usr/local/flutter/bin"
 RUN flutter config --enable-linux-desktop
 RUN flutter config --enable-web
 RUN flutter precache linux web
+
+WORKDIR /workspace
